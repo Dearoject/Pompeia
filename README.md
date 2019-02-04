@@ -20,3 +20,8 @@ $ source django-env/bin/activate
 (django-env) $ pip install django
 (django-env) $ django-admin startproject mysite
 ```
+
+# Generar una release
+```
+(django-env) $ ./manage.py makemigrations
+```
