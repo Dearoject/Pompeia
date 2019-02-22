@@ -20,8 +20,13 @@ $ source django-env/bin/activate
 (django-env) $ pip install django
 (django-env) $ django-admin startproject mysite
 ```
+## Post instaŀlació
+```
+(django-env) $ ./manage.py createsuperuser
+```
 
 # Generar una release
 ```
 (django-env) $ ./manage.py makemigrations
+(django-env) $ ./manage.py migrate
 ```
